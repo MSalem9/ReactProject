@@ -1,0 +1,193 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body{
+  font-family: Impact, fantasy;
+  font-size: 18px;
+}
+
+.errorMassage{
+  color: red;
+  font-size: 15px;
+  font-family: Impact, fantasy;
+}
+
+.button_S{
+  font-family: Impact, fantasy;
+}
+.main_div_Back{
+  display: non;
+  /* width: 100%; */
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 25%;
+  margin-left: 25%;
+  /* background-color: 	#94B4C1 ; */
+  background-color: #c1c2c2;
+  border-radius: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* box-shadow: 0px 0px 3px 3px #94B4C1; */
+  box-shadow: 0px 0px 3px 3px #c1c2c2;
+}
+.main_div:hover{
+  transition-duration: 500ms ;
+  
+  /* background-color: #213448; */
+  background-color: #212529;
+  border: 10px;
+  border-style: solid;
+  /* border-color: #213448; */
+  border-color: #212529;
+}
+.main_div{
+  width: 70%;
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  /* background-color:#547792; */
+  background-color: #4d5154;
+  border-radius: 20px;
+  padding: 20px;
+  display : grid;
+  /* box-shadow: 0px 0px 3px 3px #547792; */
+  box-shadow: 0px 0px 3px 3px #4d5154;
+  border: 1px;
+  border-style: solid;
+  /* border-color: #547792; */
+  border-color: #4d5154;
+  transition: 0.5s;
+  
+}
+
+.button_S{
+  z-index: 1;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px; 
+  background-color: rgb(196, 194, 194); 
+  font-size: 18px;
+  border: 2px solid #e7e7e7;
+  transition: 0.5s;
+
+}
+.button_S:hover{
+  transition-duration: 500ms;
+  background-color:  	#F08080;
+  border-style: solid;
+  color: #e7e7e7;
+  border-color: black;
+}
+
+.input_type1{
+  border: 2px solid #e7e7e7;
+  width: 97.5%; 
+  width: 100%;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; 
+  border-radius: 10px; 
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+
+.input_type1:hover{
+  transition-duration: 500ms;
+  background-color:  	#F08080;
+  border-style: solid;
+  border-color: black;
+}
+
+.input_type1:focus {
+  height: 50px;
+  font-size: 20px;
+  color: black;
+  
+}
+
+.main_body {
+  height: 100vh; /* Full viewport height */
+  width: 100vw;  /* Full viewport width */
+  background-image: url('./assets/pexels-polina-zimmerman-3782235.jpg'); /* Adjust the path as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Optional: makes the background stay in place */
+  
+}
+
+
+
+/* input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: Impact, fantasy;
+  font-size: 15px;
+  color: black;
+
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: Impact, fantasy;
+  font-size: 15px;
+  color: black;
+
+}
+input:hover[type=text] {
+  color: whitesmoke;
+  transition: 0.5s ease-in-out;
+}
+input[type=text]:focus {
+  height: 50px;
+  font-size: 20px;
+  color: black;
+  
+} */
