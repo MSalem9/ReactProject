@@ -6,7 +6,8 @@ function WelcomePage() {
   return (
     <div >
       <div className="main_div_Back">
-        <h1 className="text-4xl font-bold mb-6">Welcome to Post Manager</h1>
+        <img src="./src/assets/LOGO.jpeg" alt="Description of image" width="400"/>
+        <div style={{ height: '60px' }}></div>
         <div className="main_div">
           <button
             className="button_S"
